@@ -157,12 +157,12 @@ function About() {
             <div className={classes.colteam}>
               <div
                 className={classes.teamimg}
-                style={{
-                  backgroundImage: "url(./HoangLe.png) ",
-                  backgroundRepeat: "no-repeat",
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
+                // style={{
+                //   backgroundImage: "url(./HoangLe.png) ",
+                //   backgroundRepeat: "no-repeat",
+                //   backgroundSize: "cover",
+                //   backgroundPosition: "center",
+                // }}
               ></div>
               <div className={classes.teammember}>
                 <h4>Hoang Le</h4>
@@ -172,12 +172,12 @@ function About() {
             <div className={classes.colteam}>
               <div
                 className={classes.teamimg}
-                style={{
-                  backgroundImage: "url(./PhongTran.png) ",
-                  backgroundRepeat: "no-repeat",
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
+                // style={{
+                //   backgroundImage: "url(./PhongTran.png) ",
+                //   backgroundRepeat: "no-repeat",
+                //   backgroundSize: "cover",
+                //   backgroundPosition: "center",
+                // }}
               ></div>
 
               <div className={classes.teammember}>
@@ -190,12 +190,12 @@ function About() {
             <div className={classes.colteam2}>
               <div
                 className={classes.teamimg2}
-                style={{
-                  backgroundImage: "url(./ClarisseRoussel.png) ",
-                  backgroundRepeat: "no-repeat",
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
+                // style={{
+                //   backgroundImage: "url(./ClarisseRoussel.png) ",
+                //   backgroundRepeat: "no-repeat",
+                //   backgroundSize: "cover",
+                //   backgroundPosition: "center",
+                // }}
               ></div>
 
               <h4>Clarisse Roussel</h4>
@@ -204,12 +204,12 @@ function About() {
             <div className={classes.colteam2}>
               <div
                 className={classes.teamimg2}
-                style={{
-                  backgroundImage: "url(./ChiaWeeKiatKelvin.png)",
-                  backgroundRepeat: "no-repeat",
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
+                // style={{
+                //   backgroundImage: "url(./ChiaWeeKiatKelvin.png)",
+                //   backgroundRepeat: "no-repeat",
+                //   backgroundSize: "cover",
+                //   backgroundPosition: "center",
+                // }}
               ></div>
 
               <h4>Chia Wee Kiat Kelvin</h4>
@@ -219,12 +219,12 @@ function About() {
             <div className={classes.colteam2}>
               <div
                 className={classes.teamimg2}
-                style={{
-                  backgroundImage: "url(./MikeJentes.png) ",
-                  backgroundRepeat: "no-repeat",
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
+                // style={{
+                //   backgroundImage: "url(./MikeJentes.png) ",
+                //   backgroundRepeat: "no-repeat",
+                //   backgroundSize: "cover",
+                //   backgroundPosition: "center",
+                // }}
               ></div>
 
               <h4>Mike Jentes</h4>
@@ -234,12 +234,12 @@ function About() {
             <div className={classes.colteam2}>
               <div
                 className={classes.teamimg2}
-                style={{
-                  backgroundImage: "url(./HauNgo.png) ",
-                  backgroundRepeat: "no-repeat",
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
+                // style={{
+                //   backgroundImage: "url(./HauNgo.png) ",
+                //   backgroundRepeat: "no-repeat",
+                //   backgroundSize: "cover",
+                //   backgroundPosition: "center",
+                // }}
               ></div>
 
               <h4>Hau Ngo</h4>
@@ -248,12 +248,12 @@ function About() {
             <div className={classes.colteam2}>
               <div
                 className={classes.teamimg2}
-                style={{
-                  backgroundImage: "url(./HiepDinh.png) ",
-                  backgroundRepeat: "no-repeat",
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
+                // style={{
+                //   backgroundImage: "url(./HiepDinh.png) ",
+                //   backgroundRepeat: "no-repeat",
+                //   backgroundSize: "cover",
+                //   backgroundPosition: "center",
+                // }}
               ></div>
 
               <h4>Hiep Dinh</h4>
@@ -262,12 +262,12 @@ function About() {
             <div className={classes.colteam2}>
               <div
                 className={classes.teamimg2}
-                style={{
-                  backgroundImage: "url(./TuanNguyen.png) ",
-                  backgroundRepeat: "no-repeat",
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
+                // style={{
+                //   backgroundImage: "url(./TuanNguyen.png) ",
+                //   backgroundRepeat: "no-repeat",
+                //   backgroundSize: "cover",
+                //   backgroundPosition: "center",
+                // }}
               ></div>
               <h4>Tuan Nguyen</h4>
               <p>Technical Lead</p>
