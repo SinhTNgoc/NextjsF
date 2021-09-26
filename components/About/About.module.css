@@ -1,0 +1,463 @@
+.about {
+  margin-top: 78px;
+  width: 100%;
+  height: auto;
+}
+.title {
+  width: 100%;
+  height: 350px;
+  background: transparent url("/footer.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.title h2 {
+  display: block;
+  width: 1228px;
+  height: 67px;
+  margin-top: 130px;
+  margin-bottom: 153px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font: normal normal bold 44px/60px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.container {
+  width: 100%;
+  padding-left: 69px;
+  padding-right: 69px;
+  margin: 40px auto auto auto;
+}
+
+.row {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  opacity: 1;
+  
+}
+.col50 {
+  width: 50%;
+  
+   
+}
+.imgillus1 {
+  width: 584px;
+}
+.imgillus1 img {
+  width: 100%;
+  height: 438px;
+}
+.servicescontent {
+  width: 604px;
+  max-width: 100%;
+  margin-bottom: 24px;
+}
+.servicescontent h3 {
+  text-align: left;
+  font: normal normal bold 44px/60px Poppins;
+  letter-spacing: 0px;
+  color: #262626;
+  opacity: 1;
+  margin: 0 0 12px 0;
+}
+.servicescontent p {
+  text-align: left;
+  font: normal normal normal 17px/26px Poppins;
+  letter-spacing: 0px;
+  color: #262626;
+  opacity: 1;
+  margin: 0;
+}
+.featurelist {
+  padding-left: 0;
+  list-style-type: none;
+  display: block;
+  margin: 0;
+ 
+}
+.featurelist li {
+  width: 292px;
+  margin-top: 0;
+  margin-bottom: 12px;
+  float: left;
+  display: block;
+  border: 1px solid #f0eae2;
+  border-radius: 5px;
+  padding: 20px 20px 20px 95px;
+  position: relative;
+  background-color: #fff;
+  transition: 0.5s;
+  position: relative;
+  overflow: hidden;
+  
+  
+}
+
+.featurelist img {
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 100%;
+  height: auto;
+ 
+}
+.featurelist h3 {
+  margin: 0;
+  text-align: left;
+  font: normal normal bold 24px/35px Poppins;
+  letter-spacing: 0px;
+  color: #e5181e;
+  opacity: 1;
+}
+.featurelist p {
+  margin: 0;
+  text-align: left;
+  font: normal normal normal 16px/25px Poppins;
+  letter-spacing: 0px;
+  color: #262626;
+  opacity: 1;
+}
+
+/* ABOUT */
+.headerSection {
+  width: 604px;
+  max-width: 100%;
+}
+.container .headerSection h2 {
+  text-align: left;
+  font: normal normal bold 44px/60px Poppins;
+  letter-spacing: 0px;
+  color: #262626;
+  opacity: 1;
+  margin: 0 0 24px 0;
+}
+.container .headerSection p {
+  text-align: left;
+  font: normal normal normal 17px/26px Poppins;
+  letter-spacing: 0px;
+  color: #262626;
+  opacity: 1;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+.col {
+  width: 33.33%;
+  margin: 0 16px 0 0;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: 1px solid #d9d9d9;
+  text-align: center;
+  opacity: 1;
+}
+
+.row div:last-child {
+  margin-right: 0 !important;
+}
+
+.col h4 {
+  font: normal normal normal 17px/26px Poppins;
+  color: #e5181e;
+}
+.col p {
+  color: #262626;
+  font: normal normal normal 17px/26px Poppins;
+}
+
+/* MEET OUR TEAM */
+.team {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.colteam {
+  margin: 0;
+  box-shadow: 5px #ccc;
+  text-align: center;
+  opacity: 1;
+}
+.teamheader {
+  padding-top: 40px;
+  width: 1020px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.teamheader .teamintro {
+  display: block;
+  text-align: center;
+  font: normal normal bold 44px/65px Poppins;
+  letter-spacing: 0px;
+  color: #262626;
+  text-transform: capitalize;
+  opacity: 1;
+  margin: 0;
+}
+
+.teamheader .introsubtitle {
+  text-align: center;
+  font: normal normal normal 17px/26px Poppins;
+  letter-spacing: 0px;
+  color: #262626;
+  opacity: 1;
+  margin-bottom: 40px;
+  margin-top: 12px;
+  display: inline-block;
+}
+.row1 {
+  width: 696px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 0 112px;
+}
+.teamimg {
+  width: 292px;
+  height: 292px;
+  border-bottom: 2px solid #e5181e;
+}
+.teammember {
+  width: 278px;
+}
+.colteam h4,
+.colteam2 h4 {
+  margin: 0;
+  display: block;
+  width: 294px;
+}
+.teammember h4,
+.colteam2 h4 {
+  text-align: center;
+  font: normal normal bold 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #e5181e;
+  opacity: 1;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.teammember p,
+.colteam2 p {
+  text-align: center;
+  font: normal normal normal 17px/26px Poppins;
+  letter-spacing: 0px;
+  opacity: 1;
+  margin-top: 8px;
+  margin-bottom: 40px;
+}
+.row2 {
+  margin-left: 64px;
+  margin-right: 64px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0 112px;
+}
+
+.colteam2 {
+  width: 292px;
+}
+.teamimg2 {
+  width: 292px;
+  height: 292px;
+  border-bottom: 2px solid #e5181e;
+}
+
+/* TESTIMONIALS */
+/* Responsive */
+
+@media screen and (max-width: 414px) {
+  .about {
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+  .title {
+    width: 100%;
+    height: 176px;
+    position: relative;
+    top: 0;
+  }
+  .title h2 {
+    position: absolute;
+    top: 70px;
+    right: 16px;
+    bottom: 69px;
+    left: 16px;
+    margin: 0;
+    display: block;
+    width: 382px;
+    height: 37px;
+    text-align: center;
+    font: normal normal bold 27px/40px Poppins;
+  }
+  .container {
+    width: 100%;
+    padding: 0 16px;
+    margin-top: 0;
+  }
+  .row {
+    display: block;
+    width: 100%;
+  }
+  .col50 {
+    width: 100%;
+  }
+  .imgillus1 {
+    width: 382px;
+    height: 287px;
+  }
+  .imgillus1 img {
+    width: 100%;
+    height: 100%;
+  }
+  .servicescontent h3 {
+    width: 100%;
+    text-align: center;
+    font: normal normal bold 27px/40px Poppins;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+    margin-bottom: 16px;
+  }
+  .servicescontent p {
+    width: 100%;
+    text-align: center;
+    font: normal normal normal 15px/23px Poppins;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+  }
+  .featurelist li {
+    width: 100%;
+    height: 81px;
+    position: relative;
+    overflow: hidden;
+  }
+  .featurelist li img {
+    display: block;
+    position: absolute;
+    left: -16px;
+  }
+  .featurelistdesc {
+    width: 96px;
+    position: absolute;
+    left: 143px;
+    right: 143px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .featurelist h3,
+  .featurelist p {
+    text-align: center;
+    font: normal normal normal 15px/23px Poppins;
+  }
+  .headerSection {
+    padding-top: 44px;
+  }
+  .container .headerSection h2 {
+    margin-bottom: 0;
+    text-align: center;
+    font: normal normal bold 27px/40px Poppins;
+  }
+  .container .headerSection p {
+    margin: 16px 0 40px 0;
+    text-align: center;
+    font: normal normal normal 15px/23px Poppins;
+  }
+  .col {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .col:last-child {
+    margin-bottom: 40px;
+  }
+  .aboutimage {
+    width: 56px;
+    height: 56px;
+    margin-top: 24px;
+  }
+  .col h4 {
+    margin-top: 16px;
+    margin-bottom: 12px;
+  }
+  .col p {
+    margin-top: 0;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 24px;
+    text-align: center;
+    font: normal normal normal 15px/23px Poppins;
+  }
+  .teamheader .teamintro {
+    text-align: center;
+    font: normal normal bold 27px/40px Poppins;
+  }
+  .teamheader .introsubtitle {
+    margin-top: 16px;
+    margin-bottom: 29px;
+    text-align: center;
+    font: normal normal normal 15px/23px Poppins;
+  }
+
+  .row1 {
+    width: 100%;
+  }
+  .row1 .colteam {
+    width: 50%;
+  }
+  .row1 .colteam:first-child {
+    margin-left: 10px;
+    margin-right: 43px;
+  }
+  .row1 .colteam:last-child {
+    margin-right: 9px;
+  }
+  .row2 {
+    margin-left: 10px;
+    margin-right: 9px;
+    gap: 0 43px;
+  }
+
+  .row2 .colteam2 {
+    width: 160px;
+  }
+  .teammember2:nth-child(2) {
+    width: 180px;
+    margin-right: 0;
+  }
+  .teammember {
+    width: 160px;
+  }
+  .teammember2 {
+    width: 172px;
+  }
+  .teamimg,
+  .teamimg2 {
+    width: 160px;
+    height: 160px;
+  }
+  .colteam2 {
+    position: relative;
+  }
+  .teammember h4,
+  .colteam2 h4 {
+    text-align: center;
+    font: normal normal bold 17px/26px Poppins;
+  }
+  .colteam2 h4 {
+    margin-left: -10px;
+    display: block;
+    width: 190px;
+  }
+  .teammember p,
+  .colteam2 p {
+    text-align: center;
+    font: normal normal normal 15px/23px Poppins;
+  }
+  .colteam2 p {
+    width: 172px;
+  }
+}

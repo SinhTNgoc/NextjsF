@@ -1,0 +1,252 @@
+.header {
+  width: 1366px;
+  background: #ffffff;
+  box-shadow: 0 0 30px rgb(127 137 161 / 30%);
+  height: 78px;
+  /* fixedtop */
+  position: fixed;
+  top: 0;
+  right:29.5px;
+  left: 29.5px;
+  z-index: 999;
+}
+.container {
+  width: 100%;
+  padding-left: 69px;
+  padding-right: 69px;
+}
+.row {
+  width: 100%;
+  height: 78px;
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.logo {
+  display: block;
+  width: 156px;
+  height: 32px;
+}
+.logo :hover {
+  cursor: pointer;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+.mainnavleft {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding-left: 0;
+  height: 24px;
+}
+
+.mainnavleft a {
+  text-decoration: none;
+  font: normal normal normal 17px/26px Poppins;
+  letter-spacing: 0px;
+  color: #262626;
+  display: block;
+  height: 100%;
+  line-height: 24px;
+  opacity: 1;
+}
+.mainnavleft a:hover {
+  color: #e5181e;
+}
+.mainnavleftitem:not(:first-child) {
+  margin-left: 40px;
+}
+.mainnavleftitem:first-child {
+  margin-left: 294px;
+}
+.mainnavright {
+  margin-left: auto;
+}
+.mainnavright a {
+  display: block;
+  font: normal normal normal 17px/26px Poppins;
+  background-color: #e5181e;
+  border-radius: 4px;
+  padding: 15px 27px;
+  line-height: normal;
+  color: #ffffff;
+}
+.mainnavright a:hover {
+  background-color: #000;
+  transition: all ease-in-out 0.5s;
+  transform: translateY(-1px);
+}
+.dropdown {
+  position: relative;
+  margin-left: 12px;
+  margin-right: 40px;
+}
+.dropdown img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+} 
+.dropdown :hover .dropdownitem {
+  display: block;
+}
+.dropdownitem {
+  position: absolute;
+  top: 12px;
+  left: -70px;
+  width: 300px;
+  height: 100px;
+  text-align: left;
+  list-style: none;
+  padding: 0 0 0 16px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 3px #00000029;
+  border-radius: 4px;
+  border-top: 1px solid #e5181e;
+  opacity: 1;
+  display: none;
+}
+.dropdownitem li {
+  margin-top: 8px;
+}
+.dropdownitem li a {
+  padding-left: 8px;
+  text-align: left;
+  font: normal normal normal 17px/26px Poppins;
+  letter-spacing: 0px;
+  color: #262626;
+  opacity: 1;
+}
+.dropdownitem li a:hover {
+  color: #e5181e;
+}
+
+/* Menu icon */
+.mainnavicon {
+  width: 32px;
+  height: 32px;
+  color: #e5181e;
+  text-align: center;
+  display: none;
+  margin-left: 32px;
+}
+.mainnavicon .navbarsicon {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* MOBILE + TAB */
+.navoverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+  animation: fadeIn line 0.2s;
+}
+.mainnavmobile {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  transform: translateX(100%);
+  opacity: 0;
+  transition: all line 0.2s;
+}
+.mainnavmobile ul {
+  list-style: none;
+  margin-top: 60px;
+  padding-top: 16px;
+  border-top: 1px solid #262626;
+}
+.mainnavmobile ul li {
+  padding: 8px 0 8px 0;
+}
+.navmobileicon {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 28px;
+  height: 28px;
+  color: #262626;
+}
+.navinput {
+  display: none;
+}
+.navinput:checked ~ .navoverlay {
+  display: block;
+}
+.navinput:checked ~ .mainnavmobile {
+  transform: translateX(0);
+  opacity: 1;
+}
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* REPONSIVE */
+
+@media (max-width: 414px) {
+  .header {
+    width: 100%;
+    height: 68px;
+    position: relative;
+    left: 0;
+    right: 0;
+  }
+  .container {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .row {
+    width: 100%;
+    height: 68px;
+    padding: 0;
+    justify-content: space-between;
+  }
+  .mainnavicon {
+    display: block;
+    width: 48px;
+    height: 38px;
+    margin-left: 0;
+  }
+
+  .mainnavleft {
+    display: none;
+  }
+  .mainnavright {
+    display: none;
+  }
+}
+
+/* IPAD PRO */
+@media screen and (min-width: 1024px) and (max-width: 1040px){
+  .header {
+    position: relative;
+    width: 1024px;
+    left: 0;
+    max-width: 100%;
+  }
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .mainnavleftitem:first-child {
+    margin-left: 194px;
+  }
+  
+}

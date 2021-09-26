@@ -1,0 +1,53 @@
+.container {
+  width: 100%;
+  padding-left: 69px;
+  padding-right: 69px;
+}
+.project {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.rowproject {
+  display: flex;
+}
+
+.colproject {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  opacity: 1;
+ 
+}
+.colproject:not(last-child) {
+  margin-right: 20px;
+}
+.imgproject {
+  max-width: 100%;
+  height: auto;
+  margin-top: 16px;
+  margin-left: 15px;
+  margin-right: 17px;
+}
+.projectname {
+  text-align: center;
+  font: normal normal bold 24px/35px Poppins;
+  letter-spacing: 0px;
+  color: #e5181e;
+  opacity: 1;
+}
+.projectdes {
+  text-align: center;
+  font: normal normal normal 17px/26px Poppins;
+  letter-spacing: 0px;
+  color: #262626;
+  opacity: 1;
+}
+.line {
+  max-width: 192px;
+  border: 1px solid #e5181e;
+  opacity: 1;
+  margin: auto;
+}
+
+

@@ -1,0 +1,28 @@
+/* @import url("https://fonts.google.com/specimen/Poppins?query=pop"); */
+html,
+body {
+  width: 100%;
+  background-color: #fafafa;
+  padding: 0;
+  margin: 0 auto;
+  overflow-x: hidden;
+  font-family: Poppins;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Responsive */
+
+@media (max-width: 414px) {
+  html,
+  body {
+    width: 100%;
+  }
+}

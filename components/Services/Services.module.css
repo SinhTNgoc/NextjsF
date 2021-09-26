@@ -1,0 +1,286 @@
+.container {
+  width: 100%;
+  height: auto;
+  padding-right: 69px;
+  padding-left: 69px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  overflow-y: hidden;
+}
+.row {
+  max-width: 100%;
+  display: flex;
+  margin-bottom: 40px;
+}
+.row:last-child {
+  margin-bottom: 0;
+}
+.row1 {
+  max-width: 100%;
+  display: flex;
+}
+.container2 {
+  height: 647px;
+}
+.container2 .servicesdes {
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+.serviceinfcontent {
+  margin-bottom: 32px;
+}
+.serviceinfcontent4 {
+  margin-bottom: 0;
+}
+.container2 .serviceinf1 p {
+  width: 288px;
+  text-align: left;
+  font: normal normal 600 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #262626;
+  margin-top: 8px;
+  opacity: 1;
+}
+.container2 .serviceinf2 p {
+  width: 288px;
+  text-align: left;
+  font: normal normal 600 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #262626;
+  opacity: 1;
+  margin-top: 8px;
+}
+.container2 .serviceinf5 p {
+  width: 270px;
+  text-align: left;
+  font: normal normal 600 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #262626;
+  opacity: 1;
+  margin-top: 8px;
+}
+.container2 .serviceinf3 p {
+  text-align: left;
+  font: normal normal 600 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #262626;
+  opacity: 1;
+  margin-top: 8px;
+}
+.serviceimg {
+  margin-top: 96px;
+  width: 584px;
+  height: 438px;
+}
+.serviceimg img {
+  width: 584px;
+  height: 438px;
+}
+.serviceinfcontent3{
+  width: 288px;
+}
+.servicetitle {
+  display: block;
+  text-transform: uppercase;
+  text-align: left;
+  font: normal normal bold 17px/26px Poppins;
+  letter-spacing: 0px;
+  color: #e5181e;
+  opacity: 1;
+  margin: 0 0 0 0;
+  align-items: center;
+}
+.servicetitle img {
+  margin-right: 10px;
+  width: 28px;
+  height: 28px;
+  vertical-align: middle;
+  margin-top: -4px;
+}
+.serivcename {
+  text-align: left;
+  font: normal normal bold 44px/60px Poppins;
+  letter-spacing: 0px;
+  color: #262626;
+  opacity: 1;
+  margin-top: 26px;
+  margin-bottom: 12px;
+}
+.servicesdes {
+  width: 604px;
+  text-align: left;
+  font: normal normal normal 17px/26px Poppins;
+  letter-spacing: 0px;
+  color: #595959;
+  opacity: 1;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.menuservice {
+  display: flex;
+}
+.menuservicedetailright {
+  margin-left: auto;
+  margin-left: 24px;
+}
+.serviceinf p {
+  text-align: left;
+  font: normal normal 600 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #262626;
+  opacity: 1;
+  margin-top: 8px;
+}
+/* RESPONSIVE */
+
+@media (max-width: 414px) {
+  .container {
+    max-width: 414px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 0;
+    height: auto;
+  }
+  .row {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .row1 {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+  .colimg {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .serviceimg {
+    margin-top: 0;
+    width: 382px;
+    height: 287px;
+  }
+  .serviceimg img {
+    width: 382px;
+    height: 287px;
+  }
+  .colcontent {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .menuservicedetailright{
+    margin-left: 24px;
+  }
+  .servicetitle {
+    text-align: left;
+    font: normal normal bold 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #e5181e;
+    opacity: 1;
+    margin: 0;
+  }
+  .serivcename {
+    text-align: left;
+    font: normal normal bold 27px/40px Poppins;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+    margin-top: 18px;
+    margin-bottom: 24px;
+  }
+  .servicesdes {
+    text-align: left;
+    font: normal normal normal 15px/23px Poppins;
+    letter-spacing: 0px;
+    color: #595959;
+    opacity: 1;
+    width: 100%;
+  }
+  .container1 .serviceinfcontent,
+  .container1 .serviceinfcontent4{
+    width: 179px;
+    text-align: left;
+    font: normal normal 600 15px/23px Poppins;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+  }
+  .container2 .serviceinf5 p {
+    width: 179px;
+    text-align: left;
+    font: normal normal 600 15px/23px Poppins;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+    margin-top: 8px;
+    margin-bottom: 24px;
+  }
+  .serviceinfcontent4 {
+    text-align: left;
+    font: normal normal 600 15px/23px Poppins;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+    margin-bottom: 40px;
+  }
+  .container2 {
+    height: auto;
+  }
+  .container1 .serviceinfcontent3{
+    width: 179px;
+    font: normal normal 600 15px/23px Poppins;
+    margin-bottom: 24px;
+  }
+  .container2 .serviceinf1 p,
+  .container2 .serviceinf2 p,
+  .container2 .serviceinf3 p {
+    width: 179px;
+    text-align: left;
+    font: normal normal 600 15px/23px Poppins;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+    margin-bottom: 24px;
+  } 
+  .container2 .serviceinf4 p{
+    width: 179px;
+    text-align: left;
+    font: normal normal 600 15px/23px Poppins;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+    margin-bottom: 40px;
+  }
+}
+/* IPAD PRO */
+@media screen and (min-width: 1024px) and (max-width: 1040px) {
+  .container {
+    width: 1024px;
+    padding: 0 15px;
+    overflow: auto;
+  }
+  .container1 {
+    width: 1024px;
+  }
+  .row {
+    width: 1024px;
+  }
+  .colimg {
+    width: 50%;
+    margin-right: 15px;
+  }
+  .colcontent {
+    width: 50%;
+  }
+  .serivcescontent,
+  .servicesdes {
+    width: 100%;
+  }
+  .serviceimg img {
+    width: 484px;
+    height: 438px;
+  }
+  .row1 {
+    margin-top: 40px;
+  }
+}
