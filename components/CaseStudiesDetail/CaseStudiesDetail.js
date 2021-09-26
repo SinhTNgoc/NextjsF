@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Fragment } from "react";
 import classes from "./CaseStudiesDetail.module.css";
 import CaseStudiesDetailBanner from "./CaseStudiesDetailBanner/CaseStudiesDetailBanner";
@@ -11,22 +11,22 @@ const CaseStudiesDetail = () => {
         <div className={classes.intro}>
           <ul className={classes.introinfo}>
             <li>
-              <img src="/CPU.png" alt="" />
+              <img src="./CPU.png" alt="" />
               <h3>Project</h3>
               <p>Web Project</p>
             </li>
             <li>
-              <img src="/CPU.png" alt="" />
+              <img src="./CPU.png" alt="" />
               <h3>Client</h3>
               <p>US Firm, E-Learning</p>
             </li>
             <li>
-              <img src="/CPU.png" alt="" />
+              <img src="./CPU.png" alt="" />
               <h3>Location</h3>
               <p>New York, USA</p>
             </li>
             <li>
-              <img src="/CPU.png" alt="" />
+              <img src="./CPU.png" alt="" />
               <h3>Architecture</h3>
               <p>Serverless</p>
             </li>
@@ -37,28 +37,28 @@ const CaseStudiesDetail = () => {
             <h3>Technologies</h3>
             <ul className={classes.introtechnologiesdetails}>
               <li>
-                <img src="/docker.png" alt="" />
+                <img src="./docker.png" alt="" />
               </li>
               <li>
-                <img src="/docker.png" alt="" />
+                <img src="./docker.png" alt="" />
               </li>
               <li>
-                <img src="/docker.png" alt="" />
+                <img src="./docker.png" alt="" />
               </li>
               <li>
-                <img src="/docker.png" alt="" />
+                <img src="./docker.png" alt="" />
               </li>
               <li>
-                <img src="/docker.png" alt="" />
+                <img src="./docker.png" alt="" />
               </li>
               <li>
-                <img src="/docker.png" alt="" />
+                <img src="./docker.png" alt="" />
               </li>
               <li>
-                <img src="/docker.png" alt="" />
+                <img src="./docker.png" alt="" />
               </li>
               <li>
-                <img src="/docker.png" alt="" />
+                <img src="./docker.png" alt="" />
               </li>
             </ul>
           </div>
@@ -68,13 +68,13 @@ const CaseStudiesDetail = () => {
             <h3>DevOps</h3>
             <ul className={classes.introdevopsdetails}>
               <li>
-                <img src="/docker.png" alt="" />
+                <img src="./docker.png" alt="" />
               </li>
               <li>
-                <img src="/docker.png" alt="" />
+                <img src="./docker.png" alt="" />
               </li>
               <li>
-                <img src="/docker.png" alt="" />
+                <img src="./docker.png" alt="" />
               </li>
             </ul>
           </div>
@@ -262,19 +262,19 @@ const CaseStudiesDetail = () => {
           <h3>Related case studies</h3>
           <div className={classes.row}>
             <div className={classes.cardimgrelated}>
-              <img src="/project1.png" alt="" />
+              <img src="./project1.png" alt="" />
               <h3>Permits Platform</h3>
               <p className={classes.line}></p>
               <p>Platform Project</p>
             </div>
             <div className={classes.cardimgrelated}>
-              <img src="/project2.png" alt="" />
+              <img src="./project2.png" alt="" />
               <h3>1-1 Tutoring Platform</h3>
               <p className={classes.line}></p>
               <p>Web Project</p>
             </div>
             <div className={classes.cardimgrelated}>
-              <img src="/project3.png" alt="" />
+              <img src=".project3.png" alt="" />
               <h3>TOTTER - ODOO System</h3>
               <p className={classes.line}></p>
               <p>ERP Project</p>
@@ -282,7 +282,7 @@ const CaseStudiesDetail = () => {
           </div>
           <div className={classes.arrow}>
             <p>See All Projects</p>
-            <img src="/Arrow.svg" alt="Arrow"></img>
+            <img src="./Arrow.svg" alt="Arrow"></img>
           </div>
         </div>
       </div>

@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Fragment } from "react";
 import classes from "./Blog.module.css";
 import BlogBanner from "../Blog/BlogBanner/BlogBanner";
@@ -38,7 +38,7 @@ export default function Blog(props) {
                       <ul>
                         <li className={classes.author}>
                           <a href="#" className={classes.authorinf}>
-                            <img src="/Hoang.png" alt="Hoang" />
+                            <img src="./Hoang.png" alt="Hoang" />
                             <span>Hoang Le</span>
                           </a>
                         </li>
@@ -60,7 +60,7 @@ export default function Blog(props) {
                     <a href="#" className={classes.socialcontactitem}>
                       <img
                         className={classes.facebookicon}
-                        src="/facebook-.svg"
+                        src="./facebook-.svg"
                         alt="Facebook"
                       />
                       <span className={classes.facebook}>Facebook</span>
@@ -70,7 +70,7 @@ export default function Blog(props) {
                     <a href="#" className={classes.socialcontactitem}>
                       <img
                         className={classes.linkedinicon}
-                        src="/linkedin- .svg"
+                        src="./linkedin- .svg"
                         alt="LinkedIn"
                       />
                       <span className={classes.linkedin}>LinkedIn</span>
@@ -80,7 +80,7 @@ export default function Blog(props) {
                     <a href="#" className={classes.socialcontactitem}>
                       <img
                         className={classes.twittericon}
-                        src="/twitter-png.png"
+                        src="./twitter-png.png"
                         alt="Twitter"
                       />
                       <span className={classes.twitter}>Twitter</span>
@@ -95,7 +95,7 @@ export default function Blog(props) {
                     </a>
                   </button>
                   <div className={classes.blogcontactbannerimg}>
-                    <img src="/Group 133.svg" alt="Group 133" />
+                    <img src="./Group 133.svg" alt="Group 133" />
                   </div>
                 </div>
               </div>
@@ -138,10 +138,10 @@ export default function Blog(props) {
                 </li>
                 <li className={classes.menuitem}>
                   <a>
-                    <img src="/arrowLeft.png" alt="" />
+                    <img src="./arrowLeft.png" alt="" />
                   </a>
                   <a>
-                    <img src="/arrowRight.svg" alt="" />
+                    <img src="./arrowRight.svg" alt="" />
                   </a>
                 </li>
               </ul>
@@ -161,7 +161,7 @@ export default function Blog(props) {
                         <ul className={classes.cardcontentauthor}>
                           <li className={classes.cardauthor}>
                             <a href="#" className={classes.cardauthorinf}>
-                              <img src="/Hoang.png" alt="Hoang" />
+                              <img src="./Hoang.png" alt="Hoang" />
                               <span>{post.user.username}</span>
                             </a>
                           </li>

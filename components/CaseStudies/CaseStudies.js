@@ -10,7 +10,7 @@ function CaseStudies() {
             <div className={classes.colproject}>
               <img
                 className={classes.imgproject}
-                src="/project1.png"
+                src="./project1.png"
                 alt="project1"
               />
               <h4 className={classes.projectname}>Permits Platform</h4>
@@ -20,7 +20,7 @@ function CaseStudies() {
             <div className={classes.colproject}>
               <img
                 className={classes.imgproject}
-                src="/project2.png"
+                src="./project2.png"
                 alt="project2"
               />
               <h4 className={classes.projectname}>1-1 Tutoring Platform</h4>
@@ -30,7 +30,7 @@ function CaseStudies() {
             <div className={classes.colproject}>
               <img
                 className={classes.imgproject}
-                src="/project3.png"
+                src="./project3.png"
                 alt="project3"
               />
               <h4 className={classes.projectname}>TOTTER - ODOO System</h4>
@@ -46,7 +46,7 @@ function CaseStudies() {
             <div className={classes.colproject}>
               <img
                 className={classes.imgproject}
-                src="/project1.png"
+                src="./project1.png"
                 alt="project1"
               />
               <h4 className={classes.projectname}>Permits Platform</h4>
@@ -56,7 +56,7 @@ function CaseStudies() {
             <div className={classes.colproject}>
               <img
                 className={classes.imgproject}
-                src="/project2.png"
+                src="./project2.png"
                 alt="project2"
               />
               <h4 className={classes.projectname}>1-1 Tutoring Platform</h4>

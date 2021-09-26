@@ -1,8 +1,7 @@
-import React from "react";
+
 import { Fragment } from "react";
 import Layout from "../../components/Layout/Layout";
 import Blog from "../../components/Blog/Blog";
-import { useState, useEffect } from "react";
 // import Image from "next/image";
 function blogs(props) {
   // console.log("I am on the client");
@@ -31,7 +30,3 @@ export async function getStaticProps() {
   };
 }
 export default blogs;
-
-
-
-

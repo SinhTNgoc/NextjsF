@@ -9,7 +9,7 @@ function Career() {
       <CareerBanner />
       <div className={classes.careerintro}>
         <div className={classes.container}>
-          {/* <div className="itroduce" */}
+         
           <div className={classes.ourculture}>
             <h3>Our Culture</h3>
             <p>
@@ -59,7 +59,7 @@ function Career() {
             <div className={classes.imgrow}>
             <div className={classes.imgcontainer}>
               <div className={classes.arrowleft}>
-                <img src="/arrowLeft.png" alt="arrowleft" />
+                <img src="./arrowLeft.png" alt="arrowleft" />
               </div>
               <div className={classes.activityimgs}>
                 <div className={classes.activityimgs1}>activityimgs1</div>
@@ -69,7 +69,7 @@ function Career() {
                 <div className={classes.activityimgs5}>activityimgs5</div>
               </div>
               <div className={classes.arrowright}>
-                <img src="/arrowRight.svg" alt="arrowrightt" />
+                <img src="./arrowRight.svg" alt="arrowrightt" />
               </div>
             </div>
             </div>

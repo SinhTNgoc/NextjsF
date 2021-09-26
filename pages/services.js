@@ -8,9 +8,7 @@ function services() {
     <Fragment>
       <Layout>
         <ServiceBanner />
-        {/* <div style={{marginTop:"0px"}}> */}
-          <Services />
-        {/* </div> */}
+        <Services />
         <OurBlogArea />
       </Layout>
     </Fragment>

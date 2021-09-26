@@ -1,4 +1,4 @@
-import React from "react";
+
 import classes from "./Section.module.css";
 import { Fragment } from "react";
 
@@ -24,7 +24,7 @@ function Section() {
               <a href="#services">Our Services</a>
             </div>
             <div className={classes.mainbannericon}>
-              <img src="/Group142.svg" alt="Group142" />
+              <img src="./Group142.svg" alt="Group142" />
             </div>
           </div>
           <div className={classes.mainbannerimg}>

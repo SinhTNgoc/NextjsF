@@ -1,4 +1,4 @@
-import React from "react";
+
 import classes from "./Main.module.css";
 import { Fragment } from "react";
 import Testimonials from "../../components/Testimonials/Testimonials";
@@ -28,7 +28,7 @@ function Main() {
             <div className={classes.intro}>
               <img
                 className={classes.introimg}
-                src="/component1.png"
+                src="./component1.png"
                 alt="component1"
               />
               <h4 className={classes.introitem}>Committed</h4>
@@ -42,7 +42,7 @@ function Main() {
             <div className={classes.intro}>
               <img
                 className={classes.introimg}
-                src="/component2.png"
+                src="./component2.png"
                 alt="component1"
               />
               <h4 className={classes.introitem}>Team Focused</h4>
@@ -56,7 +56,7 @@ function Main() {
             <div className={classes.intro}>
               <img
                 className={classes.introimg}
-                src="/component3.png"
+                src="./component3.png"
                 alt="component3"
               />
               <h4 className={classes.introitem}>Responsible</h4>
@@ -84,7 +84,7 @@ function Main() {
             <div className={classes.colproject}>
               <img
                 className={classes.imgproject}
-                src="/project1.png"
+                src="./project1.png"
                 alt="project1"
               />
               <h4 className={classes.projectname}>Permits Platform</h4>
@@ -94,7 +94,7 @@ function Main() {
             <div className={classes.colproject}>
               <img
                 className={classes.imgproject}
-                src="/project2.png"
+                src="./project2.png"
                 alt="project2"
               />
               <h4 className={classes.projectname}>1-1 Tutoring Platform</h4>
@@ -114,7 +114,7 @@ function Main() {
           </div>
           <div className={classes.arrow}>
             <p>See All Projects</p>
-            <img src="/Arrow.svg" alt="Arrow" />
+            <img src="./Arrow.svg" alt="Arrow" />
           </div>
         </div>
       </div>
@@ -144,7 +144,7 @@ function Main() {
                 <ul className={classes.blogcontentmeta}>
                   <li>
                     <div className={classes.blogcontentimg}>
-                      <img src="/Hoang.png" alt="Hoang" />
+                      <img src="./Hoang.png" alt="Hoang" />
                       <p className={classes.blogauthor}>Hoang Le</p>
                     </div>
                   </li>
@@ -169,7 +169,7 @@ function Main() {
                 <ul className={classes.blogcontentmeta}>
                   <li>
                     <div className={classes.blogcontentimg}>
-                      <img src="/Hoang.png" alt="Hoang" />
+                      <img src="./Hoang.png" alt="Hoang" />
                       <p className={classes.blogauthor}>Hoang Le</p>
                     </div>
                   </li>
@@ -196,7 +196,7 @@ function Main() {
                     <div className={classes.blogcontentimg}>
                       <img
                         className={classes.blogauthorimg}
-                        src="/Hoang.png"
+                        src="./Hoang.png"
                         alt="Hoang"
                       />
                       <p className={classes.blogauthor}>Hoang Le</p>

@@ -41,8 +41,7 @@
 }
 .col50 {
   width: 50%;
-  
-   
+     
 }
 .imgillus1 {
   width: 584px;
@@ -92,9 +91,7 @@
   background-color: #fff;
   transition: 0.5s;
   position: relative;
-  overflow: hidden;
-  
-  
+  overflow: hidden;   
 }
 
 .featurelist img {
@@ -104,7 +101,6 @@
   transform: translateY(-50%);
   max-width: 100%;
   height: auto;
- 
 }
 .featurelist h3 {
   margin: 0;

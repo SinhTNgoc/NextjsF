@@ -16,12 +16,12 @@ function Testimonials() {
             <div className={classes.colleft}>
               <img
                 className={classes.arrleft}
-                src="/arrowLeft.png"
+                src="./arrowLeft.png"
                 alt="arrowLeft"
               />
             </div>
             <div className={classes.col30}>
-              <img src="Ray.png" alt="Ray" />
+              <img src="./Ray.png" alt="Ray" />
             </div>
             <div className={classes.col50}>
               <p className={classes.card}>Ray Antonio</p>
@@ -43,7 +43,7 @@ function Testimonials() {
             <div className={classes.colright}>
               <img
                 className={classes.arrright}
-                src="/arrowRight.svg"
+                src="./arrowRight.svg"
                 alt="arrowRight"
               />
             </div>
