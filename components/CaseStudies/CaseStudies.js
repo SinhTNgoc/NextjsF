@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Fragment } from "react";
 import classes from "./CaseStudies.module.css";
 function CaseStudies() {
@@ -66,7 +66,7 @@ function CaseStudies() {
             <div className={classes.colproject}>
               <img
                 className={classes.imgproject}
-                src="/project3.png"
+                src="./project3.png"
                 alt="project3"
               />
               <h4 className={classes.projectname}>TOTTER - ODOO System</h4>

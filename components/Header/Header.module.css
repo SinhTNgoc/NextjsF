@@ -6,7 +6,7 @@
   /* fixedtop */
   position: fixed;
   top: 0;
-  right:29.5px;
+  right: 29.5px;
   left: 29.5px;
   z-index: 999;
 }
@@ -88,7 +88,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-} 
+}
 .dropdown :hover .dropdownitem {
   display: block;
 }
@@ -233,7 +233,7 @@
 }
 
 /* IPAD PRO */
-@media screen and (min-width: 1024px) and (max-width: 1040px){
+@media screen and (min-width: 1024px) and (max-width: 1040px) {
   .header {
     position: relative;
     width: 1024px;
@@ -248,5 +248,4 @@
   .mainnavleftitem:first-child {
     margin-left: 194px;
   }
-  
 }

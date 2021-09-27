@@ -131,17 +131,17 @@ function Footer() {
                 <ul className={classes.footersociallink}>
                   <li>
                     <a href="https://facebook.com/">
-                      <img src="/facebook.svg" alt="facebook" />
+                      <img src="./facebook.svg" alt="facebook" />
                     </a>
                   </li>
                   <li>
                     <a href="https://facebook.com/">
-                      <img src="twitter.svg" alt="twitter" />
+                      <img src="./twitter.svg" alt="twitter" />
                     </a>
                   </li>
                   <li>
                     <a href="https://facebook.com/">
-                      <img src="/linkedin.svg" alt="Linkedin" />
+                      <img src="./linkedin.svg" alt="Linkedin" />
                     </a>
                   </li>
                 </ul>

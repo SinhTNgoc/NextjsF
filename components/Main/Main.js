@@ -1,4 +1,3 @@
-
 import classes from "./Main.module.css";
 import { Fragment } from "react";
 import Testimonials from "../../components/Testimonials/Testimonials";
@@ -104,7 +103,7 @@ function Main() {
             <div className={classes.colproject}>
               <img
                 className={classes.imgproject}
-                src="/project3.png"
+                src="./project3.png"
                 alt="project3"
               />
               <h4 className={classes.projectname}>TOTTER - ODOO System</h4>
@@ -134,11 +133,11 @@ function Main() {
             <div className={classes.col1}>
               <div
                 className={classes.blogimg}
-                style={{
-                  backgroundImage: "url(/Web.png) ",
-                  backgroundRepeat: "no-repeat",
-                  backgroundSize: "cover",
-                }}
+                // style={{
+                //   backgroundImage: "url(/Web.png) ",
+                //   backgroundRepeat: "no-repeat",
+                //   backgroundSize: "cover",
+                // }}
               ></div>
               <div className={classes.blogcontent}>
                 <ul className={classes.blogcontentmeta}>
@@ -158,11 +157,11 @@ function Main() {
             <div className={classes.col1}>
               <div
                 className={classes.blogimg}
-                style={{
-                  backgroundImage: "url(/code.png) ",
-                  backgroundRepeat: "no-repeat",
-                  backgroundSize: "cover",
-                }}
+                // style={{
+                //   backgroundImage: "url(/code.png) ",
+                //   backgroundRepeat: "no-repeat",
+                //   backgroundSize: "cover",
+                // }}
               ></div>
 
               <div className={classes.blogcontent}>
@@ -184,11 +183,11 @@ function Main() {
             <div className={classes.col1}>
               <div
                 className={classes.blogimg}
-                style={{
-                  backgroundImage: "url(/Anible.jpeg) ",
-                  backgroundRepeat: "no-repeat",
-                  backgroundSize: "contain",
-                }}
+                // style={{
+                //   backgroundImage: "url(/Anible.jpeg) ",
+                //   backgroundRepeat: "no-repeat",
+                //   backgroundSize: "contain",
+                // }}
               ></div>
               <div className={classes.blogcontent}>
                 <ul className={classes.blogcontentmeta}>

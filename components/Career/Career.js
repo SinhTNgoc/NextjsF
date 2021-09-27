@@ -1,4 +1,3 @@
-import React from "react";
 import { Fragment } from "react";
 import classes from "./Career.module.css";
 import CareerBanner from "./CareerBanner/CareerBanner";
@@ -9,7 +8,6 @@ function Career() {
       <CareerBanner />
       <div className={classes.careerintro}>
         <div className={classes.container}>
-         
           <div className={classes.ourculture}>
             <h3>Our Culture</h3>
             <p>
@@ -57,21 +55,21 @@ function Career() {
           <div className={classes.activity}>
             <h2>We Word Hard, And Play Even Harder</h2>
             <div className={classes.imgrow}>
-            <div className={classes.imgcontainer}>
-              <div className={classes.arrowleft}>
-                <img src="./arrowLeft.png" alt="arrowleft" />
+              <div className={classes.imgcontainer}>
+                <div className={classes.arrowleft}>
+                  <img src="./arrowLeft.png" alt="arrowleft" />
+                </div>
+                <div className={classes.activityimgs}>
+                  <div className={classes.activityimgs1}>activityimgs1</div>
+                  <div className={classes.activityimgs2}>activityimgs2</div>
+                  <div className={classes.activityimgs3}>activityimgs3</div>
+                  <div className={classes.activityimgs4}>activityimgs4</div>
+                  <div className={classes.activityimgs5}>activityimgs5</div>
+                </div>
+                <div className={classes.arrowright}>
+                  <img src="./arrowRight.svg" alt="arrowrightt" />
+                </div>
               </div>
-              <div className={classes.activityimgs}>
-                <div className={classes.activityimgs1}>activityimgs1</div>
-                <div className={classes.activityimgs2}>activityimgs2</div>
-                <div className={classes.activityimgs3}>activityimgs3</div>
-                <div className={classes.activityimgs4}>activityimgs4</div>
-                <div className={classes.activityimgs5}>activityimgs5</div>
-              </div>
-              <div className={classes.arrowright}>
-                <img src="./arrowRight.svg" alt="arrowrightt" />
-              </div>
-            </div>
             </div>
           </div>
         </div>

@@ -7,7 +7,6 @@
 }
 
 .introinfo {
-  /* width: 100%; */
   margin-left: 168px;
   margin-right: 168px;
   display: flex;
@@ -164,7 +163,6 @@
   margin-left: 20px;
   margin-top: 24px;
   margin-bottom: 24px;
-  /* list-style: none; */
 }
 .itrodetail ul li {
   text-align: left;
@@ -240,7 +238,6 @@
 }
 .line {
   width: 192px;
-  border: 1px solid var(--unnamed-color-e5181e);
   border: 1px solid #e5181e;
   opacity: 1;
   margin: auto;

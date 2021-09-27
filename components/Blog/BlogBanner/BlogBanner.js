@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Fragment } from "react";
 import classes from "./BlogBanner.module.css";
 const BlogBanner = (props) => {
