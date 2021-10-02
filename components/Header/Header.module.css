@@ -131,11 +131,18 @@
   text-align: center;
   display: none;
   margin-left: 32px;
+  position: relative;
 }
+
 .mainnavicon .navbarsicon {
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
 /* MOBILE + TAB */
 .navoverlay {
@@ -222,6 +229,8 @@
     width: 48px;
     height: 38px;
     margin-left: 0;
+    background: #d9d9d9 0% 0% no-repeat padding-box;
+    opacity: 1;
   }
 
   .mainnavleft {

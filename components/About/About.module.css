@@ -29,7 +29,6 @@
   padding-right: 69px;
   margin: 40px auto auto auto;
 }
-
 .row {
   width: 100%;
   height: auto;
@@ -37,11 +36,9 @@
   justify-content: space-around;
   align-items: center;
   opacity: 1;
-  
 }
 .col50 {
   width: 50%;
-     
 }
 .imgillus1 {
   width: 584px;
@@ -76,7 +73,6 @@
   list-style-type: none;
   display: block;
   margin: 0;
- 
 }
 .featurelist li {
   width: 292px;
@@ -91,7 +87,7 @@
   background-color: #fff;
   transition: 0.5s;
   position: relative;
-  overflow: hidden;   
+  overflow: hidden;
 }
 
 .featurelist img {
@@ -400,16 +396,19 @@
 
   .row1 {
     width: 100%;
+    gap: 0 43px;
   }
   .row1 .colteam {
     width: 50%;
   }
   .row1 .colteam:first-child {
     margin-left: 10px;
-    margin-right: 43px;
   }
   .row1 .colteam:last-child {
     margin-right: 9px;
+  }
+  .row1 .colteam h4 {
+    width: 100%;
   }
   .row2 {
     margin-left: 10px;
@@ -422,7 +421,7 @@
   }
   .teammember2:nth-child(2) {
     width: 180px;
-    margin-right: 0;
+    margin-right: 43px;
   }
   .teammember {
     width: 160px;

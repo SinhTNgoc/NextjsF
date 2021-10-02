@@ -1,8 +1,7 @@
-
 import classes from "./Header.module.css";
 import Link from "next/link";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { Fragment } from "react";
 function Header() {
   return (
@@ -58,10 +57,12 @@ function Header() {
               </li>
             </ul>
             <div className={classes.mainnavright}>
-              <a href="#contact">Contact Us</a>
+              <Link href="/contact">
+                <a>Contact Us</a>
+              </Link>
             </div>
             <label className={classes.mainnavicon} htmlFor="nav bar input">
-              {/* <FontAwesomeIcon className={classes.navbarsicon} icon={faBars} /> */}
+              <FontAwesomeIcon className={classes.navbarsicon} icon={faBars} />
             </label>
             <input
               className={classes.navinput}
@@ -77,10 +78,10 @@ function Header() {
                 htmlFor="nav bar input"
                 className={classes.mainnavmobileicon}
               >
-                {/* <FontAwesomeIcon
+                <FontAwesomeIcon
                   className={classes.navmobileicon}
                   icon={faTimes}
-                /> */}
+                />
               </label>
               <ul className={classes.mainnav}>
                 <li className={classes.mainnavcategory}>
@@ -111,7 +112,7 @@ function Header() {
         {/* NAV MOBILE-TABLET */}
         <div className={classes.mainnavmobile}>
           <div className={classes.mainnavmobileicon}>
-            {/* <FontAwesomeIcon className={classes.navmobileicon} icon={faTimes} /> */}
+            <FontAwesomeIcon className={classes.navmobileicon} icon={faTimes} />
           </div>
           <ul className={classes.mainnav}>
             <li className={classes.mainnavcategory}>

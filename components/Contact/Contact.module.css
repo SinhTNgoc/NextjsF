@@ -1,0 +1,364 @@
+.banner {
+  margin-top: 78px;
+}
+.bannertitle {
+  width: 100%;
+  height: 350px;
+  position: relative;
+  background-color: #000;
+}
+.bannertitle h1 {
+  position: absolute;
+  top: 130px;
+  left: 69px;
+  margin: 0;
+  display: block;
+  width: 1228px;
+  text-align: left;
+  font: normal normal bold 44px/60px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.contactinf {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.rowcontact {
+  display: flex;
+  gap: 0 20px;
+  padding-left: 69px;
+  padding-right: 69px;
+}
+.address {
+  width: 33.33333%;
+  display: flex;
+}
+.addressicon {
+  position: relative;
+  width: 84px;
+  height: 84px;
+  border: 1px solid #e5181e;
+  text-align: center;
+  background-color: #ccc;
+  margin-right: 20px;
+}
+.addressinf {
+  width: 292px;
+}
+.addressinf h3 {
+  margin: 0;
+  text-align: left;
+  font: normal normal bold 24px/35px Poppins;
+  letter-spacing: 0px;
+  color: #262626;
+  opacity: 1;
+}
+.addressinf p {
+  margin: 0;
+  text-align: left;
+  font: normal normal normal 17px/26px Poppins;
+  letter-spacing: 0px;
+  color: #262626;
+  opacity: 1;
+}
+.addressinf p span {
+  text-align: left;
+  font: normal normal normal 17px/26px Poppins;
+  letter-spacing: 0px;
+  color: #e5181e;
+}
+.icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+  color: #e5181e;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.contactmap {
+  padding-top: 30px;
+}
+
+.mapheader {
+  width: 594px;
+  margin: 0 auto;
+  text-align: center;
+}
+.mapheader h3 {
+  text-align: center;
+  font: normal normal bold 17px/26px Poppins;
+  letter-spacing: 0px;
+  color: #e5181e;
+  opacity: 1;
+  margin: 0;
+}
+.mapheader p {
+  text-align: center;
+  font: normal normal bold 48px/60px Poppins;
+  letter-spacing: 0px;
+  color: #262626;
+  opacity: 1;
+  margin: 24px 0 16px 0;
+}
+.mapheader span {
+  text-align: center;
+  font: normal normal normal 17px/26px Poppins;
+  letter-spacing: 0px;
+  color: #262626;
+  opacity: 1;
+}
+.contactmaprow {
+  padding-left: 69px;
+  padding-right: 69px;
+  display: flex;
+  gap: 0 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.map {
+  width: 50%;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  opacity: 1;
+}
+.map img {
+  width: 100%;
+  height: 100%;
+}
+
+.contactform {
+  position: relative;
+  padding: 0 16px;
+  width: 50%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  opacity: 1;
+}
+.contactform::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 8px;
+  background: #e5181e 0% 0% no-repeat padding-box;
+  border-radius: 4px 4px 0px 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.contactform h3 {
+  margin: 28px 0;
+}
+
+.form label {
+  text-align: left;
+  font: normal normal normal 17px/26px Poppins;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+.fullname,
+.company,
+.phone,
+.email,
+.message {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.fullname input {
+  flex: 1;
+  margin-left: 52px;
+  height: 40px;
+  outline: none;
+}
+.company input {
+  flex: 1;
+  margin-left: 64px;
+  height: 40px;
+  outline: none;
+}
+.phone input {
+  flex: 1;
+  margin-left: 24px;
+  height: 40px;
+  outline: none;
+}
+.email input {
+  flex: 1;
+  margin-left: 90px;
+  height: 40px;
+  outline: none;
+}
+.fullname span,
+.email span,
+.message span {
+  text-align: left;
+  font: normal normal normal 17px/26px Poppins;
+  letter-spacing: 0px;
+  color: #e5181e;
+}
+
+.inputmessage {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  margin-left: 60px;
+}
+.inputmessage .text {
+  width: 100%;
+  margin-bottom: 24px;
+  outline: none;
+  resize: none;
+}
+.inputmessage .select {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  padding-left: 16px;
+  text-align: left;
+  font: normal normal normal 17px/26px Poppins;
+  letter-spacing: 0px;
+  color: #bfbfbf;
+  opacity: 1;
+  margin-bottom: 24px;
+}
+
+.inputmessage .button {
+  width: 100%;
+  height: 40px;
+  background: #e5181e 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  outline: none;
+  border: 1px solid #d9d9d9;
+  margin-bottom: 40px;
+}
+.inputmessage .button span {
+  text-align: center;
+  font: normal normal normal 16px/25px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+/* RESPONSIVE */
+@media screen and (max-width: 414px) {
+  .banner {
+    margin-top: 0;
+  }
+  .bannertitle {
+    height: 176px;
+  }
+  .bannertitle h1 {
+    width: 382px;
+    top: 70px;
+    left: 16px;
+    text-align: center;
+    font: normal normal bold 27px/40px Poppins;
+  }
+  .contactinf {
+    padding-bottom: 16px;
+  }
+  .rowcontact {
+    flex-wrap: wrap;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .addressicon {
+    width: 80px;
+    height: 80px;
+    margin-right: 16px;
+  }
+  .address {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .address h3 {
+    font: normal normal bold 20px/30px Poppins;
+  }
+  .address p {
+    font: normal normal normal 15px/23px Poppins;
+  }
+  .address p span {
+    font: normal normal normal 15px/23px Poppins;
+  }
+  .contactmap {
+    padding-top: 40px;
+  }
+  .mapheader {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .mapheader h3 {
+    font: normal normal bold 14px/21px Poppins;
+    width: 98px;
+    margin: 0 auto;
+  }
+  .mapheader p {
+    font: normal normal bold 27px/40px Poppins;
+    width: 314px;
+    margin: 24px auto 16px auto;
+  }
+  .mapheader span {
+    font: normal normal normal 15px/23px Poppins;
+    display: block;
+    width: 314px;
+    margin: 0 auto;
+  }
+  .contactmaprow {
+    flex-wrap: wrap;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .map {
+    width: 100%;
+    height: 382px;
+    margin-bottom: 24px;
+  }
+  .contactform {
+    width: 100%;
+  }
+  .fullname,
+  .company,
+  .phone,
+  .email,
+  .text,
+  .message {
+    flex-wrap: wrap;
+  }
+  .fullname label,
+  .company label,
+  .phone label,
+  .message label,
+  .email label {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  .fullname input,
+  .company input,
+  .phone input,
+  .email input {
+    width: 100%;
+    margin-left: 0;
+  }
+  .message {
+    margin-bottom: 0;
+  }
+  .inputmessage {
+    margin-left: 0;
+  }
+  .inputmessage .text {
+    height: 120px;
+  }
+  .inputmessage .button {
+    height: 48px;
+    margin-bottom: 24px;
+  }
+}

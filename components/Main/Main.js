@@ -133,11 +133,11 @@ function Main() {
             <div className={classes.col1}>
               <div
                 className={classes.blogimg}
-                // style={{
-                //   backgroundImage: "url(/Web.png) ",
-                //   backgroundRepeat: "no-repeat",
-                //   backgroundSize: "cover",
-                // }}
+                style={{
+                  backgroundImage: "url(/Web.png) ",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+                }}
               ></div>
               <div className={classes.blogcontent}>
                 <ul className={classes.blogcontentmeta}>
@@ -157,11 +157,11 @@ function Main() {
             <div className={classes.col1}>
               <div
                 className={classes.blogimg}
-                // style={{
-                //   backgroundImage: "url(/code.png) ",
-                //   backgroundRepeat: "no-repeat",
-                //   backgroundSize: "cover",
-                // }}
+                style={{
+                  backgroundImage: "url(/code.png) ",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+                }}
               ></div>
 
               <div className={classes.blogcontent}>
@@ -183,11 +183,11 @@ function Main() {
             <div className={classes.col1}>
               <div
                 className={classes.blogimg}
-                // style={{
-                //   backgroundImage: "url(/Anible.jpeg) ",
-                //   backgroundRepeat: "no-repeat",
-                //   backgroundSize: "contain",
-                // }}
+                style={{
+                  backgroundImage: "url(/Anible.jpeg) ",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "contain",
+                }}
               ></div>
               <div className={classes.blogcontent}>
                 <ul className={classes.blogcontentmeta}>

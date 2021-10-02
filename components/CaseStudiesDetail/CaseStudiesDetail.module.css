@@ -1,9 +1,13 @@
-.casestudiesdetail {
-  margin-left: 69px;
-  margin-right: 69px;
+.container {
+  width: 100%;
+  padding-left: 69px;
+  padding-right: 69px;
+  margin: 0 auto;
 }
-.casestudiesdetail h1 {
-  padding-top: 200px;
+.casestudiesdetail {
+  padding-left: 173px;
+  padding-right: 173px;
+  margin: 0 auto;
 }
 
 .introinfo {
@@ -14,6 +18,91 @@
   justify-content: space-between;
   padding: 0;
 }
+.introduction {
+  display: flex;
+  gap: 0 24px;
+  margin-bottom: 40px;
+}
+.information {
+  position: relative;
+  width: 40.7166%;
+  background: hsl(0, 0%, 97%) 0% 0% no-repeat padding-box;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  opacity: 1;
+}
+.information::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  content: "";
+  display: block;
+  height: 8px;
+  background: #e5181e 0% 0% no-repeat padding-box;
+  border-radius: 4px 4px 0px 0px;
+  opacity: 1;
+}
+.details {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.details:first-child {
+  margin-top: 48px;
+}
+.details div span {
+  margin-left: 8px;
+  text-align: left;
+  font: normal normal normal 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #e5181e;
+  opacity: 1;
+}
+
+.details p {
+  margin-bottom: 24px;
+  margin-left: 32px;
+  margin-top: 8px;
+  text-align: left;
+  font: normal normal normal 17px/24px Poppins;
+  letter-spacing: 0px;
+  color: #262626;
+  opacity: 1;
+}
+
+.details ul {
+  padding: 0;
+  list-style: none;
+  margin-top: 8px;
+  margin-bottom: 40px;
+  margin-left: 32px;
+}
+.details ul li {
+  text-align: left;
+  font: normal normal normal 17px/24px Poppins;
+  letter-spacing: 0px;
+  color: #262626;
+  opacity: 1;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  color: #e5181e;
+  opacity: 1;
+}
+
+.intropicture {
+  width: calc(100%-40.7166%);
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  opacity: 1;
+}
+.intropicture img {
+  width: 100%;
+  height: 100%;
+}
+
 .intro {
   background: #fafafa 0% 0% no-repeat padding-box;
   border: 1px solid #d9d9d9;
@@ -102,10 +191,6 @@
   height: 48px;
   margin-right: 24px;
 }
-/* .introcstteam {
-  margin-left: 69px;
-  margin-right: 69px;
-} */
 .introcstteam h3 {
   text-align: left;
   font: normal normal bold 24px/35px Poppins;
@@ -142,29 +227,34 @@
   margin-top: 0;
   margin-bottom: 0;
 }
-.itrodetail h3 {
-  text-align: left;
-  font: normal normal bold 24px/35px Poppins;
+.introdetail {
+  padding-top: 40px;
+}
+.introdetail h3 {
+  text-align: center;
+  font: normal normal bold 44px/60px Poppins;
   letter-spacing: 0px;
   color: #262626;
   opacity: 1;
-  margin-bottom: 16px;
+  margin: 0;
 }
-.itrodetail p {
+
+.introdetail p {
   text-align: left;
   font: normal normal normal 17px/26px Poppins;
   letter-spacing: 0px;
   color: #262626;
   opacity: 1;
+  margin: 16px 0 24px 0;
 }
 
-.itrodetail ul {
+.introdetail ul {
   padding: 0;
   margin-left: 20px;
-  margin-top: 24px;
+  margin-top: 12px;
   margin-bottom: 24px;
 }
-.itrodetail ul li {
+.introdetail ul li {
   text-align: left;
   font: normal normal normal 17px/26px Poppins;
   letter-spacing: 0px;
@@ -175,11 +265,16 @@
   width: 916px;
   height: 796px;
 }
+.introimg img {
+  width: 100%;
+  height: 100%;
+}
 .row {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 40px;
 }
 .cardimg {
   width: 289px;
@@ -216,7 +311,7 @@
 .cardimgrelated img {
   width: 364px;
   height: 275px;
-  margin: 16px 16px;
+  margin: 16px 16px 0 16px;
 }
 .cardimgrelated h3 {
   text-align: center;
@@ -224,7 +319,7 @@
   letter-spacing: 0px;
   color: #e5181e;
   opacity: 1;
-  margin-top: 0;
+  margin-top: 8px;
   margin-bottom: 8px;
 }
 .cardimgrelated p:last-child {
@@ -237,14 +332,16 @@
   margin-bottom: 24px;
 }
 .line {
+  display: block;
   width: 192px;
   border: 1px solid #e5181e;
   opacity: 1;
-  margin: auto;
+  margin: 0 auto;
 }
 .arrow {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 .arrow p {
   text-align: right;
@@ -255,4 +352,72 @@
   margin-top: 40px;
   margin-bottom: 40px;
   margin-right: 8px;
+}
+/* RESPONSIVE */
+@media screen and (max-width: 414px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .introduction {
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  .information {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .casestudiesdetail {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .introdetail {
+    padding-top: 0;
+  }
+  .introdetailtitle {
+    text-align: center;
+    font: normal normal bold 27px/40px Poppins;
+  }
+  .introdetail h3 {
+    text-align: left;
+    font: normal normal bold 20px/30px Poppins;
+  }
+  .introdetail p {
+    font: normal normal normal 15px/23px Poppins;
+  }
+  .introimg {
+    width: 382px;
+    height:332px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .intropicture {
+    width: 382px;
+    height: 332px;
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+  .cardimgrelated h3 {
+    text-align: center;
+    font: normal normal bold 20px/30px Poppins;
+  }
+  .cardimgrelated {
+    width: 382px;
+    margin-bottom: 24px;
+  }
+  .cardimgrelated img {
+    width: 358px;
+    height: 271px;
+    margin: 12px 12px 0 12px;
+  }
+  .arrow {
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+  .arrow p {
+    margin: 0;
+    font: normal normal normal 17px/26px Poppins;
+  }
 }

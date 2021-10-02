@@ -1,5 +1,6 @@
 import classes from "./Section.module.css";
 import { Fragment } from "react";
+import Link from "next/link";
 
 function Section() {
   return (
@@ -19,9 +20,11 @@ function Section() {
               Development, DevOps, and Automation Testing that help you meet
               your business needs.
             </p>
-            <div className={classes.btngetservices}>
-              <a href="#services">Our Services</a>
-            </div>
+            <button className={classes.btngetservices}>
+              <Link href="/services">
+                <a>Our Services</a>
+              </Link>
+            </button>
             <div className={classes.mainbannericon}>
               <img src="./Group142.svg" alt="Group142" />
             </div>

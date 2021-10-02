@@ -97,7 +97,7 @@
   border-radius: 4px;
   opacity: 1;
   max-width: 396px;
-  max-height: 396px;
+  /* max-height: 396px; */
 }
 .colproject:not(:last-child) {
   margin-right: 20px;
@@ -105,10 +105,7 @@
 .imgproject {
   max-width: 364px;
   max-height: 275px;
-  margin-top: 16px;
-  margin-left: 15px;
-  margin-right: 17px;
-  margin-bottom: 16px;
+  margin: 16px 17px 0 16px;
 }
 .projectname {
   text-align: center;
@@ -116,8 +113,8 @@
   letter-spacing: 0px;
   color: #e5181e;
   opacity: 1;
-  margin-top: 0;
-  margin-bottom: 14px;
+  margin-top: 16px;
+  margin-bottom: 8px;
 }
 .projectdes {
   text-align: center;
@@ -125,7 +122,7 @@
   letter-spacing: 0px;
   color: #262626;
   opacity: 1;
-  margin-top: 0;
+  margin-top: 8px;
   margin-bottom: 16px;
 }
 .line {
@@ -307,10 +304,9 @@
   .colproject {
     margin-bottom: 24px;
     width: 382px;
-    height: 376px;
   }
   .imgproject {
-    margin: 12px;
+    margin: 12px 12px 0 12px;
     width: 358px;
     height: 271px;
   }
@@ -320,7 +316,8 @@
     letter-spacing: 0px;
     color: #e5181e;
     opacity: 1;
-    margin-bottom: 7px;
+    margin-top: 16px;
+    margin-bottom: 8px;
   }
   .projectdes {
     text-align: center;
@@ -329,6 +326,9 @@
     color: #262626;
     opacity: 1;
     margin: 7px 17px 12px 14px;
+  }
+  .line {
+    width: 190px;
   }
   .arrow p {
     text-align: right;

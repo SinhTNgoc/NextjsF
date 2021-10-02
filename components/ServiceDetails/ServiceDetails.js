@@ -1,8 +1,7 @@
-
 import { Fragment } from "react";
 import classes from "./ServiceDetails.module.css";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faPlus, faMinus } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPlus, faMinus } from "@fortawesome/free-solid-svg-icons";
 import ServiceDetailsBanner from "../ServiceDetails/ServiceDetailsBanner/ServiceDetailsBanner";
 function ServiceDetails() {
   return (
@@ -75,7 +74,7 @@ function ServiceDetails() {
           <div className={classes.tech}>
             <div className={classes.rowtextsub}>
               <h3>Web Technologies</h3>
-              {/* <FontAwesomeIcon className={classes.font} icon={faMinus} /> */}
+              <FontAwesomeIcon className={classes.font} icon={faMinus} />
             </div>
             <div className={classes.row}>
               <div className={classes.col50}>
@@ -129,25 +128,25 @@ function ServiceDetails() {
             <div className={classes.rowtext}>
               <div className={classes.rowtextsub}>
                 <p>Mobile Technologies</p>
-                {/* <FontAwesomeIcon className={classes.font} icon={faPlus} /> */}
+                <FontAwesomeIcon className={classes.font} icon={faPlus} />
               </div>
             </div>
             <div className={classes.rowtext}>
               <div className={classes.rowtextsub}>
                 <p>Testing Technologies</p>
-                {/* <FontAwesomeIcon className={classes.font} icon={faPlus} /> */}
+                <FontAwesomeIcon className={classes.font} icon={faPlus} />
               </div>
             </div>
             <div className={classes.rowtext}>
               <div className={classes.rowtextsub}>
                 <p>Programming Languages</p>
-                {/* <FontAwesomeIcon className={classes.font} icon={faPlus} /> */}
+                <FontAwesomeIcon className={classes.font} icon={faPlus} />
               </div>
             </div>
             <div className={classes.rowtext}>
               <div className={classes.rowtextsub}>
                 <p>DevOps</p>
-                {/* <FontAwesomeIcon className={classes.font} icon={faPlus} /> */}
+                <FontAwesomeIcon className={classes.font} icon={faPlus} />
               </div>
             </div>
           </div>

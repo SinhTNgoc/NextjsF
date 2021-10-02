@@ -42,17 +42,20 @@
   border-radius: 4px;
   position: relative;
   text-align: center;
+  border: none;
+  outline: none;
 }
 .btngetservices a {
-  display: inline-block;
+  display: block;
+  width: 100px;
   font: normal normal normal 16px/25px Poppins;
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
   position: absolute;
-  top: 0;
-  left: 0;
-  transform: translate(40%, 46%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .mainbannericon {
   margin-top: 29px;
